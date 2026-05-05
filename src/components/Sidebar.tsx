@@ -7,7 +7,6 @@ import {
   FileText, 
   LogOut, 
   Landmark,
-  ShieldCheck 
 } from 'lucide-react';
 
 export const Sidebar = () => {
