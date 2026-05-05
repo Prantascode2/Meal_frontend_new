@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { Users, Utensils, Wallet, Landmark, FileBarChart, ArrowRight, RefreshCw, CheckCircle2, XCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { AiInsights } from '../components/AiInsights'; 

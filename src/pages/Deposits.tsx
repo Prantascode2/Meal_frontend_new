@@ -42,8 +42,7 @@ export const Deposits = () => {
         const firstDay = new Date(year, month, 1).toISOString().split('T')[0];
         const lastDay = new Date(year, month + 1, 0).toISOString().split('T')[0];
         
-        const startDateTime = `${firstDay}T00:00:00`;
-        const endDateTime = `${lastDay}T23:59:59`;
+        
         const mealRes = await api.get(`/meals?startDate=${firstDay}&endDate=${lastDay}`);
         setMeals(mealRes.data || []);
       } catch (mealErr) {

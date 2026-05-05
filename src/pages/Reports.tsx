@@ -3,8 +3,8 @@ import api from '../api/axiosInstance';
 import jsPDF from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import { 
-  FileText, Calculator, RefreshCw, Loader2, 
-  AlertCircle, CheckCircle2, TrendingUp, 
+  FileText, Calculator, RefreshCw, 
+   CheckCircle2, TrendingUp, 
   DollarSign, Users, Download, Info
 } from 'lucide-react';
 

@@ -6,7 +6,7 @@ export const Members = () => {
   const [members, setMembers] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [submitLoading, setSubmitLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [,setError] = useState<string | null>(null);
   
   const [isAdding, setIsAdding] = useState(false);
   const [newMember, setNewMember] = useState({ 

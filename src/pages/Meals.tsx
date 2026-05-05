@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../api/axiosInstance';
-import { UtensilsCrossed, List, Calculator, CalendarDays, User, Trash2, Edit3, Check, X, Search, PieChart, Loader2 } from 'lucide-react';
+import { UtensilsCrossed, List, Calculator, CalendarDays, Trash2, Edit3, Check, Search, PieChart, Loader2 } from 'lucide-react';
 
 export const Meals = () => {
   const [mealData, setMealData] = useState({
